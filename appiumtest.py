@@ -17,6 +17,7 @@ PATH = lambda p: os.path.abspath(
 )
 
 class SimpleAndroidTests(unittest.TestCase):
+
     def setUp(self):
         desired_caps = {}
         desired_caps['platformName'] = 'Android'
