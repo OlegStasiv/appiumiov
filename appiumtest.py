@@ -21,7 +21,7 @@ class SimpleAndroidTests(unittest.TestCase):
     def setUp(self):
         desired_caps = {}
         desired_caps['platformName'] = 'Android'
-        desired_caps['platformVersion'] = '5.1'
+        desired_caps['platformVersion'] = '6.0.1'
         desired_caps['deviceName'] = 'emulator-5554'
         desired_caps['app'] = PATH(
             'iov_final_1.apk'
